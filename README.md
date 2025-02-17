@@ -1,3 +1,5 @@
+## Worked on 3 Different Projects of Clustering as Follows:
+
 # Cluster Analysis on Global Development Measurement Dataset
 
 ## Business Objective
@@ -99,4 +101,120 @@ To run the deployment:
 
 1. Clone the repository:
    ```bash
+   https://github.com/shubhangidoltade/Clustering-Algorithm/blob/main/Clustering%20Project.ipynb
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   # Crime Data Clustering (Hierarchical, KMeans, DBSCAN)
+
+## Project Overview
+
+The objective of this project is to perform clustering on a crime dataset for different places in the United States. We will apply three popular clustering algorithms — **Hierarchical Clustering**, **K-Means**, and **DBSCAN** — to group the data points based on the rates of crime in various locations. By the end of this project, we aim to identify the number of clusters formed by each algorithm and draw meaningful inferences from them.
+
+## Data Description
+
+The dataset contains information about the crime rates in different locations across the United States. The dataset has the following variables:
+
+- **Murder**: Murder rates in different places.
+- **Assault**: Assault rates in different places.
+- **UrbanPop**: Percentage of urban population in different places.
+- **Rape**: Rape rates in different places.
+
+## Problem Statement
+
+Perform clustering (Hierarchical, KMeans, and DBSCAN) on the crime data to identify the number of clusters formed. Based on the clustering results, draw inferences regarding crime patterns across different regions.
+
+### Steps:
+1. **Exploratory Data Analysis (EDA)**
+2. **Hierarchical Clustering** (using Dendrogram to identify the optimal number of clusters)
+3. **K-Means Clustering** (identifying the optimal number of clusters using the Elbow method)
+4. **DBSCAN Clustering** (tuning epsilon and minimum samples for optimal results)
+
+## Exploratory Data Analysis (EDA)
+
+Before performing clustering, conducted a basic EDA on the dataset to check for null values, data distribution, correlations between variables, and any other observations.
+
+### Key EDA Tasks:
+- Handle missing values (if any).
+- Analyze statistical summary and distribution of variables.
+- Visualize pairwise correlations (using heatmaps).
+- Check for outliers and address them if necessary.
+  
+## Clustering Methodologies Used
+
+### 1. **Hierarchical Clustering**
+
+Performed agglomerative clustering and visualized the results using a dendrogram to identify the optimal number of clusters.
+
+### 2. **K-Means Clustering**
+
+K-Means is a partition-based clustering algorithm. Determined the optimal number of clusters using the **Elbow Method** 
+
+### 3. **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)**
+
+Applied DBSCAN to identify arbitrarily shaped clusters and handled outliers.
+- **Epsilon (ε)**: The maximum distance between two samples to be considered as neighbors.
+- **MinPts (minimum number of points)**: The minimum number of points to form a dense region.
+- Used **Epsilon (ε)** method in this project to determine number of clusters.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Crime Data Clustering (Hierarchical, KMeans, DBSCAN)
+
+## Project Overview
+
+The objective of this project is to perform clustering on a dataset of passengers from an airline's frequent flyer program. By applying three popular clustering algorithms — Hierarchical Clustering, K-Means Clustering, and DBSCAN — the goal is to identify clusters of passengers with similar characteristics. These clusters can be used to tailor marketing and loyalty programs, segment customers for targeted offers, and improve customer engagement.
+## Data Description
+The dataset EastWestAirlines contains information on frequent flyers of an airline. For each passenger, the dataset includes various features that describe their behavior, mileage history, and transaction activities. The features are as follows:
+
+- **ID**: Unique ID of each passenger.
+- **Balance**: Number of miles eligible for award travel.
+- **Qual_mile**: Number of miles counted as qualifying for Topflight status.
+- **cc1_miles**: Number of miles earned with frequent flyer credit card in the past 12 months.
+- **cc2_miles**: Number of miles earned with Rewards credit card in the past 12 months.
+- **cc3_miles**: Number of miles earned with Small Business credit card in the past 12 months.
+- **Bonus_miles**: Number of miles earned from non-flight bonus transactions in the past 12 months.
+- **Bonus_trans**: Number of non-flight bonus transactions in the past 12 months.
+- **Flight_miles_12mo**: Number of flight miles in the past 12 months.
+- **Flight_trans_12**: Number of flight transactions in the past 12 months.
+- **Days_since_enrolled**: Number of days since the passenger enrolled in the frequent flyer program.
+- **Award**: Whether the person had an award flight (free flight) or not (binary value).
+- 
+## Problem Statement
+
+Perform clustering (Hierarchical, KMeans, and DBSCAN) on the airlines data to identify segments of passengers. Analyze the clusters formed by each algorithm and draw meaningful inferences to help the airline tailor their marketing and loyalty programs effectively.
+### Steps:
+1. **Exploratory Data Analysis (EDA)**
+2. **Hierarchical Clustering** (using Dendrogram to identify the optimal number of clusters)
+3. **K-Means Clustering** (identifying the optimal number of clusters using the Elbow method)
+4. **DBSCAN Clustering** (tuning epsilon and minimum samples for optimal results)
+
+## Exploratory Data Analysis (EDA)
+
+Before performing clustering, conducted a basic EDA on the dataset to check for null values, data distribution, correlations between variables, and any other observations.
+
+### Key EDA Tasks:
+- Handle missing values (if any).
+- Analyze statistical summary and distribution of variables.
+- Visualize pairwise correlations (using heatmaps).
+- Check for outliers and address them if necessary.
+  
+## Clustering Methodologies Used
+
+### 1. **Hierarchical Clustering**
+
+Performed agglomerative clustering and visualized the results using a dendrogram to identify the optimal number of clusters.
+
+### 2. **K-Means Clustering**
+
+K-Means is a partition-based clustering algorithm. Determined the optimal number of clusters using the **Elbow Method** 
+
+### 3. **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)**
+
+Applied DBSCAN to identify arbitrarily shaped clusters and handled outliers.
+- **Epsilon (ε)**: The maximum distance between two samples to be considered as neighbors.
+- **MinPts (minimum number of points)**: The minimum number of points to form a dense region.
+- Used **Epsilon (ε)** method in this project to determine number of clusters.
+
+
+
+
+
   
